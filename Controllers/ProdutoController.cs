@@ -57,5 +57,29 @@ namespace Desafio.WebAPI.Controllers
             if(produto == null) return BadRequest("Produto não encontrado");
             return Ok(produto);
         }
+
+        [HttpPost]
+        public IActionResult Post(Produto produto )
+        {
+            return Ok(produto);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Produto produto )
+        {
+            return Ok(produto);
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, Produto produto )
+        {
+            return Ok(produto);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id )
+        {
+            return Ok();
+        }
     }
 }

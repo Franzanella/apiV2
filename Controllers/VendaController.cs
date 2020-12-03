@@ -10,7 +10,7 @@ namespace Desafio.WebAPI.Controllers
     public class VendaController : ControllerBase
     {
 
-         public List<Venda> Vendas = new List<Venda>(){
+        public List<Venda> Vendas = new List<Venda>(){
             new Venda(){
                 Id = 1,
                 FornecedorId = 1,
@@ -51,5 +51,30 @@ namespace Desafio.WebAPI.Controllers
             if(venda == null) return BadRequest("Venda não encontrada");
             return Ok(venda);
         }
+
+        [HttpPost]
+        public IActionResult Post(Venda venda )
+        {
+            return Ok(venda);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Venda venda )
+        {
+            return Ok(venda);
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, Venda venda )
+        {
+            return Ok(venda);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id )
+        {
+            return Ok();
+        }
     }
 }
+    

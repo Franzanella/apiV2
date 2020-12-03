@@ -18,3 +18,8 @@ C:\Users\Fran\desafioapiv2\Desafio.WebAPI\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\Fran\desafioapiv2\Desafio.WebAPI\obj\Debug\netcoreapp3.1\Desafio.WebAPI.dll
 C:\Users\Fran\desafioapiv2\Desafio.WebAPI\obj\Debug\netcoreapp3.1\Desafio.WebAPI.pdb
 C:\Users\Fran\desafioapiv2\Desafio.WebAPI\obj\Debug\netcoreapp3.1\Desafio.WebAPI.genruntimeconfig.cache
+C:\Users\Fran\desafioapiv2\Desafio.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Fran\desafioapiv2\Desafio.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Fran\desafioapiv2\Desafio.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Fran\desafioapiv2\Desafio.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Fran\desafioapiv2\Desafio.WebAPI\obj\Debug\netcoreapp3.1\Desafio.WebAPI.csproj.CopyComplete

@@ -46,5 +46,29 @@ namespace Desafio.WebAPI.Controllers
             if(cliente == null) return BadRequest("Cliente não encontrado");
             return Ok(cliente);
         }
+        [HttpPost]
+        public IActionResult Post(Cliente cliente )
+        {
+            return Ok(cliente);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Cliente cliente )
+        {
+            return Ok(cliente);
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, Cliente cliente )
+        {
+            return Ok(cliente);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id )
+        {
+            return Ok();
+        }
     }
 }
+    
